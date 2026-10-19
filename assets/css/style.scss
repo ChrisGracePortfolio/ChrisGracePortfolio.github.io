@@ -1,9 +1,23 @@
+
   
 ---
 ---
 
 @import"{{ site.theme }}";
 
+.wrapper {
+  width:1200px;
+  margin:0 auto;
+}
+
+section {
+  width:800px;
+  float:right;
+  padding-bottom:50px;
+}
+
 .inner {
   max-width: 100%;
 }
+
+JEKYLL_ENV=production
